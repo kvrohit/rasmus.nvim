@@ -61,8 +61,8 @@ colorscheme rasmus
 
 > Configuration needs to be set **BEFORE** loading the color scheme with `colorscheme rasmus`
 
-| Option                     | Default   | Description              |
-| -------------------------- | --------- | ------------------------ |
+| Option                  | Default   | Description              |
+| ------------------------| --------- | ------------------------ |
 | rasmus_italic_comments  | `true`    | Make comments italic     |
 | rasmus_italic_keywords  | `false`   | Make keywords italic     |
 | rasmus_italic_booleans  | `false`   | Make booleans italic     |
