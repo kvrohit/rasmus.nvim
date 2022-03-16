@@ -19,7 +19,7 @@ M.config = {
   boolean_style = opt("italic_booleans", false) and "italic" or "NONE",
   function_style = opt("italic_functions", false) and "italic" or "NONE",
   variable_style = opt("italic_variables", false) and "italic" or "NONE",
-  variant = opt("variant", "default"),
+  variant = opt("variant", "dark"),
 }
 
 return M
