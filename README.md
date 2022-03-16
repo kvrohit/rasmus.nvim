@@ -2,12 +2,13 @@ Warning: This theme is still a **work-in-progress**.
 
 # Rasmus
 
-A dark color scheme for Neovim written in Lua ported from [rsms/sublime-theme](https://github.com/rsms/sublime-theme) theme.
+A color scheme for Neovim written in Lua ported from [rsms/sublime-theme](https://github.com/rsms/sublime-theme) theme.
 
 ## Features
 
 - Supports the latest Neovim `0.5` features like TreeSitter and LSP
 - Terminal colors inside Neovim
+- Dark and monochrome variants
 
 ### Plugin Support
 
@@ -71,7 +72,7 @@ colorscheme rasmus
 | rasmus_italic_functions | `false`   | Make functions italic    |
 | rasmus_italic_variables | `false`   | Make variables italic    |
 | rasmus_transparent      | `false`   | Disable background color |
-| rasmus_variant          | `default` | Colorscheme variant      |
+| rasmus_variant          | `dark`    | Colorscheme variant      |
 
 ```lua
 -- Example config in lua
@@ -87,6 +88,16 @@ let g:rasmus_italic_functions = 1
 
 " Load the colorscheme
 colorscheme rasmus
+```
+
+```vim
+" Setting colorscheme variant to monochrome
+let g:rasmus_variant = "monochrome"
+```
+
+```lua
+-- Setting colorscheme variant to monochrome
+vim.g.rasmus_variant = "monochrome"
 ```
 
 ## Credits
