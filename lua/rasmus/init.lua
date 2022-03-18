@@ -427,6 +427,11 @@ local set_groups = function()
     MiniStarterSelection = { fg = c.bright_magenta },
     MiniStarterQuery = { fg = c.bright_magenta },
     -- Custom highlight groups for use in statusline plugins
+    StatusLineNormalMode = { fg = c.black, bg = c.gray02 },
+    StatusLineInsertMode = { fg = c.black, bg = c.gray03 },
+    StatusLineVisualMode = { fg = c.black, bg = c.gray04 },
+    StatusLineReplaceMode = { fg = c.black, bg = c.gray05 },
+    StatusLineTerminalMode = { fg = c.black, bg = c.gray05 },
     StatusLineHint = { fg = c.cyan, bg = c.gray01 },
     StatusLineInfo = { fg = c.blue, bg = c.gray01 },
     StatusLineWarn = { fg = c.yellow, bg = c.gray01 },

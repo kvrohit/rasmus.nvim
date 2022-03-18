@@ -78,6 +78,9 @@ colorscheme rasmus
 -- Example config in lua
 vim.g.rasmus_italic_functions = true
 
+-- Setting colorscheme variant to monochrome
+vim.g.rasmus_variant = "monochrome"
+
 -- Load the colorscheme
 vim.cmd [[colorscheme rasmus]]
 ```
@@ -86,19 +89,16 @@ vim.cmd [[colorscheme rasmus]]
 " Example config in Vim Script
 let g:rasmus_italic_functions = 1
 
+" Setting colorscheme variant to monochrome
+let g:rasmus_variant = "monochrome"
+
 " Load the colorscheme
 colorscheme rasmus
 ```
 
-```vim
-" Setting colorscheme variant to monochrome
-let g:rasmus_variant = "monochrome"
-```
+## Extras
 
-```lua
--- Setting colorscheme variant to monochrome
-vim.g.rasmus_variant = "monochrome"
-```
+- kitty color theme: `extras/kitty/rasmus.conf`
 
 ## Credits
 
