@@ -1,0 +1,33 @@
+# Colors (Rasmus)
+colors:
+  # Default colors
+  primary:
+    background: '#1a1a19'
+    foreground: '#d1d1d1'
+
+  # Cursor colors
+  cursor:
+    text: '#1a1a19'
+    cursor: '#d1d1d1'
+
+  # Normal colors
+  normal:
+    black:   '#333332'
+    red:     '#ff968c'
+    green:   '#61957f'
+    yellow:  '#ffc591'
+    blue:    '#8db4d4'
+    magenta: '#de9bc8'
+    cyan:    '#7bb099'
+    white:   '#d1d1d1'
+
+  # Bright colors
+  bright:
+    black:   '#4c4c4b'
+    red:     '#ffafa5'
+    green:   '#7aae98'
+    yellow:  '#ffdeaa'
+    blue:    '#a6cded'
+    magenta: '#f7b4e1'
+    cyan:    '#94c9b2'
+    white:   '#eaeaea'

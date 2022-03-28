@@ -64,15 +64,15 @@ colorscheme rasmus
 
 > Configuration needs to be set **BEFORE** loading the color scheme with `colorscheme rasmus`
 
-| Option                  | Default   | Description              |
-| ------------------------| --------- | ------------------------ |
-| rasmus_italic_comments  | `true`    | Make comments italic     |
-| rasmus_italic_keywords  | `false`   | Make keywords italic     |
-| rasmus_italic_booleans  | `false`   | Make booleans italic     |
-| rasmus_italic_functions | `false`   | Make functions italic    |
-| rasmus_italic_variables | `false`   | Make variables italic    |
-| rasmus_transparent      | `false`   | Disable background color |
-| rasmus_variant          | `dark`    | Colorscheme variant      |
+| Option                  | Default | Description              |
+| ----------------------- | ------- | ------------------------ |
+| rasmus_italic_comments  | `true`  | Make comments italic     |
+| rasmus_italic_keywords  | `false` | Make keywords italic     |
+| rasmus_italic_booleans  | `false` | Make booleans italic     |
+| rasmus_italic_functions | `false` | Make functions italic    |
+| rasmus_italic_variables | `false` | Make variables italic    |
+| rasmus_transparent      | `false` | Disable background color |
+| rasmus_variant          | `dark`  | Colorscheme variant      |
 
 ```lua
 -- Example config in lua
@@ -98,6 +98,7 @@ colorscheme rasmus
 
 ## Extras
 
+- alacritty color theme: `extras/alacritty/rasmus.yaml`
 - kitty color theme: `extras/kitty/rasmus.conf`
 
 ## Credits
