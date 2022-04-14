@@ -1,5 +1,3 @@
-Warning: This theme is still a **work-in-progress**.
-
 # Rasmus
 
 A color scheme for Neovim written in Lua ported from [rsms/sublime-theme](https://github.com/rsms/sublime-theme) theme.
