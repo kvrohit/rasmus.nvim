@@ -122,6 +122,7 @@ colorscheme rasmus
 
 - alacritty color theme: `extras/alacritty/rasmus.yaml`
 - kitty color theme: `extras/kitty/rasmus.conf`
+- iterm color theme: `extras/iterm/rasmus.itermcolors`
 
 ## Credits
 
