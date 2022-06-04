@@ -69,14 +69,22 @@ colorscheme rasmus
 | rasmus_italic_booleans  | `false` | Make booleans italic     |
 | rasmus_italic_functions | `false` | Make functions italic    |
 | rasmus_italic_variables | `false` | Make variables italic    |
+| rasmus_bold_comments    | `false` | Make comments bold       |
+| rasmus_bold_keywords    | `false` | Make keywords bold       |
+| rasmus_bold_booleans    | `false` | Make booleans bold       |
+| rasmus_bold_functions   | `false` | Make functions bold      |
+| rasmus_bold_variables   | `false` | Make variables bold      |
 | rasmus_transparent      | `false` | Disable background color |
 | rasmus_variant          | `dark`  | Colorscheme variant      |
 
 ```lua
 -- Example config in lua
-vim.g.rasmus_italic_functions = true
 
--- Setting colorscheme variant to monochrome
+-- Configure the appearance
+vim.g.rasmus_italic_functions = true
+vim.g.rasmus_bold_functions = true
+
+-- Set the colorscheme variant to monochrome
 vim.g.rasmus_variant = "monochrome"
 
 -- Load the colorscheme
@@ -84,10 +92,13 @@ vim.cmd [[colorscheme rasmus]]
 ```
 
 ```vim
-" Example config in Vim Script
-let g:rasmus_italic_functions = 1
+" Example config in vim script
 
-" Setting colorscheme variant to monochrome
+" Configure the appearance
+let g:rasmus_italic_functions = 1
+let g:rasmus_bold_functions = 1
+
+" Set the colorscheme variant to monochrome
 let g:rasmus_variant = "monochrome"
 
 " Load the colorscheme

@@ -12,13 +12,25 @@ local function opt(key, default)
   return vim.g[key]
 end
 
+local function style(italic, bold)
+  if italic and bold then
+    return "bold,italic"
+  elseif italic then
+    return "italic"
+  elseif bold then
+    return "bold"
+  else
+    return "NONE"
+  end
+end
+
 M.config = {
   transparent = opt("transparent", false),
-  comment_style = opt("italic_comments", true) and "italic" or "NONE",
-  keyword_style = opt("italic_keywords", false) and "italic" or "NONE",
-  boolean_style = opt("italic_booleans", false) and "italic" or "NONE",
-  function_style = opt("italic_functions", false) and "italic" or "NONE",
-  variable_style = opt("italic_variables", false) and "italic" or "NONE",
+  comment_style = style(opt("italic_comments", true), opt("bold_comments", false)),
+  keyword_style = style(opt("italic_keywords", false), opt("bold_keywords", false)),
+  boolean_style = style(opt("italic_booleans", false), opt("bold_booleans", false)),
+  function_style = style(opt("italic_functions", false), opt("bold_functions", false)),
+  variable_style = style(opt("italic_variables", false), opt("bold_variables", false)),
   variant = opt("variant", "dark"),
 }
 
