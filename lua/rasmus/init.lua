@@ -45,7 +45,7 @@ local set_groups = function()
     DiffDelete = { fg = c.bright_red, bg = c.none, style = "reverse" }, -- diff mode: Deleted line
     DiffText = { fg = c.fg, bg = c.none, style = "reverse" }, -- diff mode: Changed text within a changed line
     ErrorMsg = { fg = c.red }, -- error messages
-    Folded = { fg = c.gray05, c.none, style = "italic" },
+    Folded = { fg = c.gray05, bg = c.none, style = "italic" },
     FoldColumn = { fg = c.blue },
     IncSearch = { style = "reverse" },
     LineNr = { fg = c.gray05 },
