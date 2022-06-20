@@ -79,7 +79,7 @@ local set_groups = function()
     VisualNOS = { fg = c.none, bg = c.gray03 },
     WarningMsg = { fg = c.yellow, style = "bold" },
     WildMenu = { fg = c.bg, bg = c.blue, style = "bold" },
-    CursorColumn = { fg = c.none, bg = c.fg },
+    CursorColumn = { fg = c.none, bg = c.gray02 },
     CursorLine = { fg = c.none, bg = c.gray01 },
     ToolbarLine = { fg = c.fg, bg = c.gray01 },
     ToolbarButton = { fg = c.fg, bg = c.none, style = "bold" },
