@@ -23,6 +23,7 @@ A color scheme for Neovim written in Lua ported from [rsms/sublime-theme](https:
 - [ALE](https://github.com/dense-analysis/ale)
 - [vim-sneak](https://github.com/justinmk/vim-sneak)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [Hydra](https://github.com/anuvyklack/hydra.nvim)
 
 ## Requirements
 

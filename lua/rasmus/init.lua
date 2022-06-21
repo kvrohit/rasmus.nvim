@@ -331,10 +331,10 @@ local set_groups = function()
     ALEVirtualTextWarning = { fg = c.yellow },
     ALEVirtualTextInfo = { fg = c.blue },
     -- WhichKey
-    WhichKey = { fg = c.magenta, style = "bold" },
-    WhichKeyGroup = { fg = c.magenta, style = "italic" },
-    WhichKeyDesc = { fg = c.blue, style = "bold" },
-    WhichKeySeperator = { fg = c.green },
+    WhichKey = { fg = c.bright_cyan },
+    WhichKeyGroup = { fg = c.yellow, style = "italic" },
+    WhichKeyDesc = { fg = c.blue },
+    WhichKeySeperator = { fg = c.gray05 },
     WhichKeyFloating = { bg = c.gray01 },
     WhichKeyFloat = { bg = c.gray01 },
     -- LspSaga
@@ -436,6 +436,13 @@ local set_groups = function()
     StatusLineInfo = { fg = c.blue, bg = c.gray01 },
     StatusLineWarn = { fg = c.yellow, bg = c.gray01 },
     StatusLineError = { fg = c.red, bg = c.gray01 },
+    -- Hydra
+    HydraRed = { fg = c.red },
+    HydraBlue = { fg = c.blue },
+    HydraAmaranth = { fg = c.bright_red },
+    HydraTeal = { fg = c.cyan },
+    HydraPink = { fg = c.magenta },
+    HydraHint = { fg = c.fg, bg = c.gray02 },
   }
 
   for group, parameters in pairs(groups) do
