@@ -184,7 +184,7 @@ local set_groups = function()
     TSConstant = { fg = c.fg }, -- For constants
     TSConstBuiltin = { fg = c.cyan, style = "italic" }, -- For constants that are built in the language: `nil` in Lua.
     TSConstMacro = { fg = c.cyan }, -- For constants that are defined by macros: `NULL` in C.
-    TSConstructor = { fg = c.gray07 }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
+    TSConstructor = { fg = c.yellow }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     TSError = { fg = c.red }, -- For syntax/parser errors.
     TSException = { fg = c.yellow }, -- For exception related keywords.
     TSField = { fg = c.cyan }, -- For fields.
