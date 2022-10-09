@@ -443,6 +443,11 @@ local set_groups = function()
     HydraTeal = { fg = c.cyan },
     HydraPink = { fg = c.magenta },
     HydraHint = { fg = c.fg, bg = c.gray02 },
+    -- JSON
+    jsonNumber = { fg = c.yellow },
+    jsonNull = { fg = c.bright_black },
+    jsonString = { fg = c.green },
+    jsonKeyword = { fg = c.blue },
   }
 
   for group, parameters in pairs(groups) do
