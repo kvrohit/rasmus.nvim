@@ -13,15 +13,7 @@ local function opt(key, default)
 end
 
 local function style(italic, bold)
-  if italic and bold then
-    return "bold,italic"
-  elseif italic then
-    return "italic"
-  elseif bold then
-    return "bold"
-  else
-    return "NONE"
-  end
+  return { bold = bold, italic = italic }
 end
 
 M.config = {
