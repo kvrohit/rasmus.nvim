@@ -45,6 +45,18 @@ Plug 'kvrohit/rasmus.nvim'
 use 'kvrohit/rasmus.nvim'
 ```
 
+[lazy.nvim](https://github.com/folke/lazy.nvim)
+
+```lua
+{
+  "kvrohit/rasmus.nvim",
+  priority = 1000,
+  config = function()
+    vim.cmd([[colorscheme rasmus]])
+  end,
+}
+```
+
 ## Usage
 
 Enable the colorscheme:
